@@ -1,0 +1,127 @@
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  .addbtn {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    display: block;
+  margin: 10px auto;
+  }
+ .addbtn:hover {
+    border-color: #646cff;
+  }
+.addbtn:active {
+    border-color: #ffffff;
+    scale:0.98;
+  }
+
+  .li{
+   
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px;
+    list-style: none;
+    width: 400px;
+    color: azure;
+    min-height: 200px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+
+.display {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #008888;
+  background-color: #008888;
+  border-radius: 5px;
+  max-width: 400px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+p{
+  max-width: 75%;
+  margin:5px;
+  margin-top: 23px;
+}
+p1{
+  margin: 5px;
+  font-weight: bold;
+  top: 10px;
+}
+textarea {
+  width: 75%;
+  height:fit-content;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+  resize: none;
+}
+
+.edit {
+  width:50px;
+  height: 40px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #6dd3d6;
+  color: rgb(0, 0, 0);
+}
+
+.edit:hover {
+  background-color: #62b2b4;
+}
+
+.delete {
+height: 40px;
+  margin-left: 195px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+}
+
+.delete:hover {
+  background-color: rgb(218, 85, 61);
+}
+.buttons {
+  display: flex;
+  justify-content:column;
+}
+
+.fixed-height {
+  height:18px;
+  font-weight: bold;
+}
+.fixed-height2 {
+  min-height:100px;
+}
+
+.look{
+  min-height: 200px;
+}
